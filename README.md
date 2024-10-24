@@ -19,11 +19,10 @@ cd your-python-project
 ```bash
 pip install -r requirements.txt
 ```
-3. Create a .env file in the root of the project and add your PubMed API key:
+3. Create a .env file in the root of the project and add your PubMed API key: (You can generate a PubMed API key by following [this guide](https://account.ncbi.nlm.nih.gov/).)
 ```bash
 PUBMED_API_KEY=your_api_key_here
 ```
-You can generate a PubMed API key by following [this guide](https://account.ncbi.nlm.nih.gov/).
 4. Change the content of 'findingPath' to the path to 'pubmed_articles.xml'.
 5. Run the program.
 
